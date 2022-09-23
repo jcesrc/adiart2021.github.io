@@ -1,0 +1,160 @@
+body
+{
+        font-family: monospace;
+}
+.topnav
+{
+    position: fixed !important;
+    z-index:1;
+    width: 100%;
+    font-size: 18px;
+    background-color: #f3f3f3b0 !important;
+}
+
+.topnav a{
+    font-weight:bold;
+}
+
+.bgimage
+{
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+}
+
+.maintitle
+{
+    position:
+    absolute;
+    right: 10%;
+    top: 15%;
+    font-size: 75px;
+    color: #ffffffe8;
+    text-shadow: #7c7c7cd1 2px 5px;
+}
+
+.mainPageContent
+{
+    font-size:38px;
+    color:white;
+    margin:20%;
+    line-height: 1.6;
+}
+
+.contentcontainer
+{
+ /* z-index:1; */
+}
+
+.gallery
+{
+    /* display: grid; */
+    /* justify-content: center; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-gap:5px; */
+    position: relative;
+    top: 1000px;
+    background: #5c5449bf;
+    padding: 50px;
+    height: fit-content;
+    background-size: cover;
+    min-height: 100%;
+    background-position: center;
+}
+
+.galleryitem
+{
+    background-color:
+    aliceblue;
+    padding:20px;
+    position:
+    relative;
+    text-align: center;
+    display: table;
+    height: min-content;
+}
+
+.galleryItems
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    top: 1000px;
+    grid-gap: 10px;
+    /* max-width: 80%; */
+    text-align: center;
+    justify-content: center;
+    margin: 0px auto 0px auto;
+    background-color: #5c5d5ead;
+    padding: 10px 0 10px 0;
+    height: 100%;
+}
+
+.imgContainer
+{
+    /* margin:
+    auto 0 auto 0; */
+    /* position: absolute; */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.gicontentcontainer
+{
+    opacity:0;
+    position:
+    absolute;
+    left:0;
+    top:0px;
+    /*width:100%;    
+    height:100%;*/
+    background: #ffffffa8;
+    color: #5a5a5a;
+    transition:0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+.gicontentcontainer:hover
+{
+    opacity:1;
+}
+
+.galleryitem img
+{
+    max-height:400px;
+    max-width: 550px;
+}
+
+.galleryitem label
+{
+    font-size:32px; 
+    margin:100px 0 0 0;
+}
+
+.gicontentcontainer .description
+{
+    font-size:24px;
+}
+
+
+
+.gallery
+{
+    opacity:1;
+    transition:0.2s;
+}
+
+.fadeout
+{
+    opacity:0;
+}
+
+.fadein
+{
+    opacity:1;
+}
+
